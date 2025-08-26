@@ -49,7 +49,7 @@ $("#open").click(function () {
 				content.body + "<br><br><p style='float:right; display:block; width:" +
 				content.sign + "px;'>^1000" + content.signature + "</p>"
 			],
-			typeSpeed: 70,
+			typeSpeed: 60,
 			backSpeed: 50
 		});
 		$('#open').find("span").eq(0).css('background-position', "0 -150px");
